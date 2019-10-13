@@ -15,4 +15,9 @@
     <string name="ram_hyperx32gb_predator_overview">Review RAM HyperX Predator RGB DDR4 3200 32GB Kit (4x8GB)</string>
     <string name="ssd_samsung_860_1tb_overview">Review SSD Samsung 860 QVO 1 TB</string>
     <string name="hddEx_wd_myPassport_1tb_overview">Review HDD Eksternal: WD My Passport Ultra 1 TB</string>
+    <string name="gpu_asus_gtx1060_overview">Review Graphic Card: ASUS GeForce GTX 1060 OC 9Gbps</string>
+    <string name="gpu_fe_radeonVII_overview">Review AMD Radeon VII - Founders Edition</string>
+    <string name="psu_80plus_overview">Hal yang Perlu Anda Ketahui Tentang Standar 80+ pada Power Supply</string>
+    <string name="case_corsair_carbide275r_overview">Review Casing Corsair Carbide 275R</string>
+    <string name="monitor_lg_4k_overview">Review Monitor LG27UK600W: 4K HDR10</string>
 </resources>
