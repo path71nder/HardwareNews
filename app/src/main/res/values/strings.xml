@@ -1,3 +1,18 @@
 <resources>
     <string name="app_name">HardwareNews</string>
+    <string name="intel_i7_8700K_overview">Review Intel I7 8700K "Coffe Lake"</string>
+    <string name="intel_i7_8700K_review">
+        Awal tahun 2018, Intel meluncurkan processor yang masih dengan fabrikasi 14nm. Perilisan ini menawarkan perubahan yang signifikan dibandingkan generasi lalu, salah satunya Intel Core I7 8700K yang akan kami review ini.
+        Intel Core I7 8700K memiliki 6 Core dan 12 Thread, base clock sebesar 3.7 GHz, turbo boost hingga 4.7 GHz, TDP sebesar 95W (lebih besar dari I7 generasi lalu).
+        Pada pengujian benchmark Cinebench R15, Intel Core I7 generasi ke-8 ini mampu unggul 30% lebih dari generasi sebelumnya.
+    </string>
+    <string name="amd_ryzen7_1800X_overview">Review AMD Ryzen 7 1800X</string>
+    <string name="amd_ryzen7_1800X_review">
+        AMD akhirnya mengeluarkan senjata andalan mereka setelah berjuang melewati masa-masa susah pada arsitektur Kaveri. Benar sekali Ryzen 7 1800X memiliki 8 Core dan 16 Thread, Base Clock sebesar 3.6 GHz dan Turbo Boost 3.7 GHz.
+        Pada pengujian benchmark Cinebench, skor yang didapat pada multi-core mencapai 1634. Angka ini melebihi pesaingnya mencapai 10% dari I7 6900K
+    </string>
+    <string name="ram_corsair16gb_overview">Review RAM Corsair Vengeance RGB Pro DDR4 3200 16GB Kit (2x8GB)</string>
+    <string name="ram_hyperx32gb_predator_overview">Review RAM HyperX Predator RGB DDR4 3200 32GB Kit (4x8GB)</string>
+    <string name="ssd_samsung_860_1tb_overview">Review SSD Samsung 860 QVO 1 TB</string>
+    <string name="hddEx_wd_myPassport_1tb_overview">Review HDD Eksternal: WD My Passport Ultra 1 TB</string>
 </resources>
