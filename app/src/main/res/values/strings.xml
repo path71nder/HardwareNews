@@ -12,7 +12,9 @@
         Pada pengujian benchmark Cinebench, skor yang didapat pada multi-core mencapai 1634. Angka ini melebihi pesaingnya mencapai 10% dari I7 6900K
     </string>
     <string name="ram_corsair16gb_overview">Review RAM Corsair Vengeance RGB Pro DDR4 3200 16GB Kit (2x8GB)</string>
+    <string name="ram_corsair16gb_review"></string>
     <string name="ram_hyperx32gb_predator_overview">Review RAM HyperX Predator RGB DDR4 3200 32GB Kit (4x8GB)</string>
+    <string name="ram_hyperx32gb_predator_review"></string>
     <string name="ssd_samsung_860_1tb_overview">Review SSD Samsung 860 QVO 1 TB</string>
     <string name="hddEx_wd_myPassport_1tb_overview">Review HDD Eksternal: WD My Passport Ultra 1 TB</string>
     <string name="gpu_asus_gtx1060_overview">Review Graphic Card: ASUS GeForce GTX 1060 OC 9Gbps</string>
