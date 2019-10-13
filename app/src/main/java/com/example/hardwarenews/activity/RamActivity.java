@@ -1,8 +1,10 @@
-package com.example.hardwarenews;
+package com.example.hardwarenews.activity;
 
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.os.Bundle;
+
+import com.example.hardwarenews.R;
 
 public class RamActivity extends AppCompatActivity {
 

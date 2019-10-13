@@ -1,14 +1,16 @@
-package com.example.hardwarenews;
+package com.example.hardwarenews.activity;
 
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.os.Bundle;
 
-public class PsuActivity extends AppCompatActivity {
+import com.example.hardwarenews.R;
+
+public class HddActivity extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_psu);
+        setContentView(R.layout.activity_hdd);
     }
 }

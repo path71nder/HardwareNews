@@ -9,13 +9,15 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".MonitorActivity"></activity>
-        <activity android:name=".CaseActivity" />
-        <activity android:name=".PsuActivity" />
-        <activity android:name=".HddActivity" />
-        <activity android:name=".GpuActivity" />
-        <activity android:name=".RamActivity" />
-        <activity android:name=".CpuActivity" />
+        <activity android:name=".activity.Ryzen7Activity"></activity>
+        <activity android:name=".activity.I7Activity" />
+        <activity android:name=".activity.MonitorActivity" />
+        <activity android:name=".activity.CaseActivity" />
+        <activity android:name=".activity.PsuActivity" />
+        <activity android:name=".activity.HddActivity" />
+        <activity android:name=".activity.GpuActivity" />
+        <activity android:name=".activity.RamActivity" />
+        <activity android:name=".activity.CpuActivity" />
         <activity android:name=".AnyHardwareActivity" />
         <activity android:name=".MainActivity">
             <intent-filter>
