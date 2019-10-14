@@ -9,7 +9,11 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".activity.Ryzen7Activity"></activity>
+        <activity android:name=".activity.WDHddExActivity"></activity>
+        <activity android:name=".activity.SamsungSSDActivity" />
+        <activity android:name=".activity.HyperXActivity" />
+        <activity android:name=".activity.CorsairActivity" />
+        <activity android:name=".activity.Ryzen7Activity" />
         <activity android:name=".activity.I7Activity" />
         <activity android:name=".activity.MonitorActivity" />
         <activity android:name=".activity.CaseActivity" />

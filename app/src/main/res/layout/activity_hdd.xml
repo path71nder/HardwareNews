@@ -6,4 +6,31 @@
     android:layout_height="match_parent"
     tools:context=".activity.HddActivity">
 
+    <TextView
+        android:id="@+id/idInteli7"
+        android:layout_width="368dp"
+        android:layout_height="36dp"
+        android:text="@string/ssd_samsung_860_1tb_overview"
+        android:textSize="18sp"
+        android:onClick="SamsungSSDOnClicked"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.072" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="368dp"
+        android:layout_height="36dp"
+        android:text="@string/hddEx_wd_myPassport_1tb_overview"
+        android:textSize="18sp"
+        android:onClick="WDHddExOnclicked"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.144" />
 </androidx.constraintlayout.widget.ConstraintLayout>
