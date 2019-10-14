@@ -8,101 +8,176 @@
 
     <ImageButton
         android:id="@+id/imgCPU"
-        android:layout_width="142dp"
-        android:layout_height="140dp"
+        android:layout_width="37dp"
+        android:layout_height="37dp"
         android:onClick="cpuOnClicked"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.122"
+        app:layout_constraintHorizontal_bias="0.761"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.086"
+        app:layout_constraintVertical_bias="0.271"
         app:srcCompat="@mipmap/cpu" />
 
     <ImageButton
         android:id="@+id/imgRAM"
-        android:layout_width="88dp"
-        android:layout_height="166dp"
-        android:layout_marginTop="244dp"
+        android:layout_width="29dp"
+        android:layout_height="50dp"
         android:onClick="ramOnClicked"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.783"
+        app:layout_constraintHorizontal_bias="0.256"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.009"
+        app:layout_constraintVertical_bias="0.569"
         app:srcCompat="@mipmap/ram" />
 
     <ImageButton
         android:id="@+id/imgHDD"
-        android:layout_width="115dp"
-        android:layout_height="162dp"
+        android:layout_width="34dp"
+        android:layout_height="48dp"
         android:onClick="hddOnClicked"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.202"
+        app:layout_constraintHorizontal_bias="0.26"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.447"
+        app:layout_constraintVertical_bias="0.407"
         app:srcCompat="@mipmap/harddisk" />
 
     <ImageButton
         android:id="@+id/imgGPU"
-        android:layout_width="164dp"
-        android:layout_height="100dp"
+        android:layout_width="49dp"
+        android:layout_height="29dp"
         android:layout_marginTop="84dp"
         android:layout_marginEnd="24dp"
         android:layout_marginRight="24dp"
         android:onClick="gpuOnClicked"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintHorizontal_bias="0.278"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.0"
+        app:layout_constraintVertical_bias="0.151"
         app:srcCompat="@mipmap/graphics_card" />
 
     <ImageButton
         android:id="@+id/imgPSU"
-        android:layout_width="84dp"
-        android:layout_height="90dp"
-        android:layout_marginTop="440dp"
+        android:layout_width="49dp"
+        android:layout_height="47dp"
         android:onClick="psuOnClicked"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.183"
+        app:layout_constraintHorizontal_bias="0.752"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.088"
+        app:layout_constraintVertical_bias="0.408"
         app:srcCompat="@mipmap/psu" />
 
     <ImageButton
         android:id="@+id/imgCase"
-        android:layout_width="53dp"
-        android:layout_height="93dp"
-        android:layout_marginTop="448dp"
+        android:layout_width="24dp"
+        android:layout_height="42dp"
         android:layout_marginEnd="24dp"
         android:layout_marginRight="24dp"
         android:onClick="caseOnClicked"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.826"
+        app:layout_constraintHorizontal_bias="0.788"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.065"
+        app:layout_constraintVertical_bias="0.575"
         app:srcCompat="@mipmap/casing" />
 
     <ImageButton
         android:id="@+id/imgMonitor"
-        android:layout_width="171dp"
-        android:layout_height="141dp"
+        android:layout_width="44dp"
+        android:layout_height="40dp"
         android:onClick="monitorOnClicked"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.562"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.941"
+        app:layout_constraintVertical_bias="0.746"
         app:srcCompat="@mipmap/monitor" />
+
+    <TextView
+        android:id="@+id/tvGpu"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="92dp"
+        android:layout_marginLeft="92dp"
+        android:layout_marginTop="136dp"
+        android:text="GPU"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/tvCPu"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="136dp"
+        android:layout_marginEnd="84dp"
+        android:layout_marginRight="84dp"
+        android:text="CPU"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/tvHdd"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="80dp"
+        android:layout_marginLeft="80dp"
+        android:layout_marginTop="208dp"
+        android:text="HDD/SSD"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/tvPsu"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="212dp"
+        android:layout_marginEnd="88dp"
+        android:layout_marginRight="88dp"
+        android:text="PSU"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/tvRam"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="84dp"
+        android:layout_marginLeft="84dp"
+        android:layout_marginTop="308dp"
+        android:text="RAM"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/tvCase"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="308dp"
+        android:layout_marginEnd="80dp"
+        android:layout_marginRight="80dp"
+        android:text="CASE"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/tvMonitoe"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="416dp"
+        android:layout_marginEnd="156dp"
+        android:layout_marginRight="156dp"
+        android:text="Monitor"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
