@@ -12,14 +12,37 @@
         Pada pengujian benchmark Cinebench, skor yang didapat pada multi-core mencapai 1634. Angka ini melebihi pesaingnya mencapai 10% dari I7 6900K
     </string>
     <string name="ram_corsair16gb_overview">Review RAM Corsair Vengeance RGB Pro DDR4 3200 16GB Kit (2x8GB)</string>
-    <string name="ram_corsair16gb_review"></string>
+    <string name="ram_corsair16gb_review">
+        Corsair memang tidak bisa diragukan lagi soal memory, kali ini mereka menghadirkan memori yang berperforma tinggi dan penampilan yang sangat menarik
+        Produk yang menarik kali ini disebut dengan Vengeance RGB Pro, memiliki spesifikasi yaitu
+        Kapasitas : 16GB (8x2)
+        Voltase : 1.35v
+        Speed Rating : DDR4-3200
+        Timing : 16-18-18-36
+        Pada pengujian kali ini menunjukan peningkatan performa yang cukup terasa pada aplikasi memory intensive seperti 3DMark 11 Physics di mana peningkatan performa ekstra hingga 10%
+        Peningkatan terbesar didapatkan di Geekbench 3 Memory Score, mencapai 39%, dari default DDR4-2133 CL15.
+    </string>
     <string name="ram_hyperx32gb_predator_overview">Review RAM HyperX Predator RGB DDR4 3200 32GB Kit (4x8GB)</string>
-    <string name="ram_hyperx32gb_predator_review"></string>
+    <string name="ram_hyperx32gb_predator_review">
+        HyperX adalah divisi khusus dari Kingston untuk berbagai produk PC high-performance. Kali ini, melalui divisi HyperX tersebut, Kingston kembali meluncurkan seri memori DDR4 baru mereka,
+        yaitu HyperX Predator RGB DDR4-3200 32GB. Spesifikasi yang ditawarkan sebagai berikut.
+        Kapasitas : 32GB (8x4)
+        Speed Grade : DDR4-2400T
+        Timing Delay (Min) : 17-17-17-39-55
+        Pada skor Geekbench 4 kali ini mendapatkan skor 6179 pada overall data single core dan 33915 pada overall data multi core
+    </string>
     <string name="ssd_samsung_860_1tb_overview">Review SSD Samsung 860 QVO 1 TB</string>
+    <string name="ssd_samsung_860_1tb_review"></string>
     <string name="hddEx_wd_myPassport_1tb_overview">Review HDD Eksternal: WD My Passport Ultra 1 TB</string>
+    <string name="hddEx_wd_myPassport_1tb_review"></string>
     <string name="gpu_asus_gtx1060_overview">Review Graphic Card: ASUS GeForce GTX 1060 OC 9Gbps</string>
+    <string name="gpu_asus_gtx1060_review"></string>
     <string name="gpu_fe_radeonVII_overview">Review AMD Radeon VII - Founders Edition</string>
+    <string name="gpu_fe_radeonVII_review"></string>
     <string name="psu_80plus_overview">Hal yang Perlu Anda Ketahui Tentang Standar 80+ pada Power Supply</string>
+    <string name="psu_80plus_review"></string>
     <string name="case_corsair_carbide275r_overview">Review Casing Corsair Carbide 275R</string>
+    <string name="case_corsair_carbide275r_review"></string>
     <string name="monitor_lg_4k_overview">Review Monitor LG27UK600W: 4K HDR10</string>
+    <string name="monitor_lg_4k_review"></string>
 </resources>
