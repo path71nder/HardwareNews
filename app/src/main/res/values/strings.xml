@@ -32,9 +32,18 @@
         Pada skor Geekbench 4 kali ini mendapatkan skor 6179 pada overall data single core dan 33915 pada overall data multi core
     </string>
     <string name="ssd_samsung_860_1tb_overview">Review SSD Samsung 860 QVO 1 TB</string>
-    <string name="ssd_samsung_860_1tb_review"></string>
+    <string name="ssd_samsung_860_1tb_review">
+        Samsung 860 QVO sendiri hadir dengan mengusung teknologi jenis NAND terbaru, yaitu QLC (Quad Level Cell) dimana SSD yang mengusung teknologi ini mampu menawarkan kapasitas yang lebih lapang lagi dengan harga per giga-nya menjadi lebih terjangkau.
+        SSD ini mempunyai Sequential Read hingga 550MB/s dan Sequential Write hingga 520MB/s.
+        Kemampuan Read yang ditampilkan Samsung 860 QVO pada HD Tune terlihat sangat stabil, bahkan bisa dikatakan memiliki kemampuan yang setara dengan saudaranya, Samsung 860 EVO.
+    </string>
     <string name="hddEx_wd_myPassport_1tb_overview">Review HDD Eksternal: WD My Passport Ultra 1 TB</string>
-    <string name="hddEx_wd_myPassport_1tb_review"></string>
+    <string name="hddEx_wd_myPassport_1tb_review">
+        WD (Western Digital), nama yang tidak bisa dipungkiri dalam kancah dunia perangkat keras media penyimpanan.
+        Sebagai pemain di industri storage,  tentunya WD memiliki segudang pengalaman yang bisa dimanfaatkan sebagai bagian dari inovasi mereka untuk menawarkan produk storage berteknologi terkini
+        Salah satunya yang akan kami review, yakni WD My Passport Ultra 1 TB.
+        Kami akan membandingkannya pada WD My Passport Ultra 3TB, Pada hasil pengujian sintetis melalui HD Tune ini, kami mendapati hasil perbedaan kemampuan Read yang jauh lebih menjanjikan pada WD My Passport Ultra 1 TB ini dibanding WD Passport Ultra 3 TB edisi tahun 2016. Sedangkan pada kemampuan Write-nya, memiliki hasil yang seimbang.
+    </string>
     <string name="gpu_asus_gtx1060_overview">Review Graphic Card: ASUS GeForce GTX 1060 OC 9Gbps</string>
     <string name="gpu_asus_gtx1060_review"></string>
     <string name="gpu_fe_radeonVII_overview">Review AMD Radeon VII - Founders Edition</string>
