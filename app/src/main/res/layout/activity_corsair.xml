@@ -36,9 +36,9 @@
 
             <TextView
                 android:id="@+id/id17Review"
-                android:layout_width="321dp"
-                android:layout_height="355dp"
-                android:layout_marginTop="264dp"
+                android:layout_width="324dp"
+                android:layout_height="455dp"
+                android:layout_marginTop="284dp"
                 android:layout_marginEnd="16dp"
                 android:layout_marginRight="16dp"
                 android:text="@string/ram_corsair16gb_review"

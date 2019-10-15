@@ -22,7 +22,7 @@ public class HddActivity extends AppCompatActivity {
     }
 
     public void WDHddExOnclicked(View view) {
-        Intent wdWxIntent = new Intent(this, SamsungSSDActivity.class);
+        Intent wdWxIntent = new Intent(this, WDHddExActivity.class);
         startActivity(wdWxIntent);
     }
 }
