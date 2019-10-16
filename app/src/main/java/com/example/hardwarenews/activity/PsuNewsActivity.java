@@ -8,16 +8,11 @@ import android.view.View;
 
 import com.example.hardwarenews.R;
 
-public class PsuActivity extends AppCompatActivity {
+public class PsuNewsActivity extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_psu);
-    }
-
-    public void PsuNewsOnClicked(View view) {
-        Intent psuNewsIntent = new Intent(this, GTXActivity.class);
-        startActivity(psuNewsIntent);
+        setContentView(R.layout.activity_psu_news);
     }
 }

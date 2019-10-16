@@ -9,7 +9,9 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".activity.RadeonActivity"></activity>
+        <activity android:name=".activity.CorsairCarbideActivity"></activity>
+        <activity android:name=".activity.PsuNewsActivity" />
+        <activity android:name=".activity.RadeonActivity" />
         <activity android:name=".activity.GTXActivity" />
         <activity android:name=".activity.WDHddExActivity" />
         <activity android:name=".activity.SamsungSSDActivity" />

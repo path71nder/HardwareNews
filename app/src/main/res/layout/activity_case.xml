@@ -6,4 +6,18 @@
     android:layout_height="match_parent"
     tools:context=".activity.CaseActivity">
 
+    <TextView
+        android:id="@+id/idInteli7"
+        android:layout_width="368dp"
+        android:layout_height="36dp"
+        android:text="@string/case_corsair_carbide275r_overview"
+        android:textSize="18sp"
+        android:onClick="CorsairCarbideOnClicked"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.072" />
+
 </androidx.constraintlayout.widget.ConstraintLayout>
