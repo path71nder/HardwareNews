@@ -47,7 +47,7 @@
     <string name="gpu_asus_gtx1060_overview">Review Graphic Card: ASUS GeForce GTX 1060 OC 9Gbps</string>
     <string name="gpu_asus_gtx1060_review">
         Salah satu langkah NVIDIA untuk menandingi kehadiran jajarang graphic card dari Radeon RX 500 Series khususnya Radeon RX 580 dan RX 570 adalah menghadirkan versi update dari GeForce GTX 1060, yaitu GTX 1060 6GB 9Gbps. Ya, sesuai nama yang diusungnya, update ini hanya melakukan peningkatan pada kecepatan VRAM.
-        VGA ini memiliki GPU clock hingga 1595 MHz dan boost clock mencapai 1810 MHz, TDP mencapai 120 Watts, Memory bus sebesar 192bit, hingga bandwith mencapai 216GB/s.
+        VGA ini memiliki GPU clock hingga 1595 MHz dan boost clock mencapai 1810 MHz, TDP mencapai 120 Watts, Memory bus sebesar 192bit, hingga bandwitdh mencapai 216GB/s.
         Pada pengujian sintetik, ASUS GeForce GTX 1060 OC ini mendapatkan overall score bernilai 12076.
     </string>
     <string name="gpu_fe_radeonVII_overview">Review AMD Radeon VII - Founders Edition</string>
@@ -70,5 +70,7 @@
         Side panel dengan bahan tempered glass menjadi unggulan utama dari casing yang satu ini, di samping dukungan untuk radiator watercooling hingga ukuran 360 mm.
     </string>
     <string name="monitor_lg_4k_overview">Review Monitor LG27UK600W: 4K HDR10</string>
-    <string name="monitor_lg_4k_review"></string>
+    <string name="monitor_lg_4k_review">
+        
+    </string>
 </resources>
