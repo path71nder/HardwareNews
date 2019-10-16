@@ -45,13 +45,30 @@
         Kami akan membandingkannya pada WD My Passport Ultra 3TB, Pada hasil pengujian sintetis melalui HD Tune ini, kami mendapati hasil perbedaan kemampuan Read yang jauh lebih menjanjikan pada WD My Passport Ultra 1 TB ini dibanding WD Passport Ultra 3 TB edisi tahun 2016. Sedangkan pada kemampuan Write-nya, memiliki hasil yang seimbang.
     </string>
     <string name="gpu_asus_gtx1060_overview">Review Graphic Card: ASUS GeForce GTX 1060 OC 9Gbps</string>
-    <string name="gpu_asus_gtx1060_review"></string>
+    <string name="gpu_asus_gtx1060_review">
+        Salah satu langkah NVIDIA untuk menandingi kehadiran jajarang graphic card dari Radeon RX 500 Series khususnya Radeon RX 580 dan RX 570 adalah menghadirkan versi update dari GeForce GTX 1060, yaitu GTX 1060 6GB 9Gbps. Ya, sesuai nama yang diusungnya, update ini hanya melakukan peningkatan pada kecepatan VRAM.
+        VGA ini memiliki GPU clock hingga 1595 MHz dan boost clock mencapai 1810 MHz, TDP mencapai 120 Watts, Memory bus sebesar 192bit, hingga bandwith mencapai 216GB/s.
+        Pada pengujian sintetik, ASUS GeForce GTX 1060 OC ini mendapatkan overall score bernilai 12076.
+    </string>
     <string name="gpu_fe_radeonVII_overview">Review AMD Radeon VII - Founders Edition</string>
-    <string name="gpu_fe_radeonVII_review"></string>
+    <string name="gpu_fe_radeonVII_review">
+        Era GPU 7nm akhirnya tiba! Setelah AMD memperkenalkan GPU 7nm pertama mereka beberapa waktu lalu di tahun 2018 untuk kelas data center dan workstation, sekarang giliran GPU kelas consumer.
+        GPU yang berarsitektur 7nm ini memiliki Memory Boost Clock Hingga 1800Mhz, Memory Size sebesar 16GB, Memory Type HBM2 dan TDP 300W.
+        Pada pengujian sintetis 3DMark Fire Strike kali ini, Radeon VII mendapatkan skor sebesar 6782 dan pada 3DMark Time Spy mendapatkan skor 4258. Skor pada Fire Strike sendiri lebih besar ketimbang RTX 2080 Founders Edition.
+    </string>
     <string name="psu_80plus_overview">Hal yang Perlu Anda Ketahui Tentang Standar 80+ pada Power Supply</string>
-    <string name="psu_80plus_review"></string>
+    <string name="psu_80plus_overview2">Apa Itu 80+ ?</string>
+    <string name="psu_80plus_review">
+        80+ adalah sebuah program sukarela yang dikembangkan untuk mempromosikan efisiensi energi di sebuah PSU komputer. Dikembangkan oleh Ecos Consulting pada tahun 2004, mereka akan mensertifikasi PSU yang mempunyai efisiensi diatas 80% pada beberapa situasi load, yaitu 20%, 50%, dan 100% dari nilai beban, dan juga power factor yang mencapai 0,9 atau lebih pada kondisi load 100%.
+        Mungkin anda pernah menemui sebuah PSU yang bersertifikat 80+ namun dengan harga yang murah?? Ya, biasanya 80+ tersebut hanyalah sebuah iklan, bukan sertifikasi yang legal.
+        Maka dari itu, jangan mudah percaya harga dan biasakan menggunakan brand yang sudah terpercaya. Tidak lupa juga, selalu cari review dari beberapa sumber sebelum menentukan pilihan Anda dan jangan lupa memperhatikan garansi dari sang produsen!
+        So, seperti yang sudah Anda tahu, 80+ sangat penting untuk sebuah power supply karena panas yang dihasilkan akan lebih minim ketimbang yang belum memiliki sertifikasi tersebut.
+    </string>
     <string name="case_corsair_carbide275r_overview">Review Casing Corsair Carbide 275R</string>
-    <string name="case_corsair_carbide275r_review"></string>
+    <string name="case_corsair_carbide275r_review">
+        Carbide 275R ini hadir sebagai casing yang mendukung hadirnya desktop dengan basis motherboard Mini-ITX, Micro-ATX, dan ATX. Casing ini memiliki dimensi 455 mm x 225 mm x 460 mm, yang merupakan kisaran dimensi yang umum untuk sebuah casing mid-tower.
+        Side panel dengan bahan tempered glass menjadi unggulan utama dari casing yang satu ini, di samping dukungan untuk radiator watercooling hingga ukuran 360 mm.
+    </string>
     <string name="monitor_lg_4k_overview">Review Monitor LG27UK600W: 4K HDR10</string>
     <string name="monitor_lg_4k_review"></string>
 </resources>
