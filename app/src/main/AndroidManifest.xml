@@ -9,7 +9,17 @@
         android:roundIcon="@mipmap/icon"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".activity.CorsairCarbideActivity"></activity>
+        <activity android:name=".activity.SplashActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".WelcomeActivity">
+
+        </activity>
+        <activity android:name=".activity.CorsairCarbideActivity" />
         <activity android:name=".activity.PsuNewsActivity" />
         <activity android:name=".activity.RadeonActivity" />
         <activity android:name=".activity.GTXActivity" />
@@ -27,12 +37,7 @@
         <activity android:name=".activity.RamActivity" />
         <activity android:name=".activity.CpuActivity" />
         <activity android:name=".AnyHardwareActivity" />
-        <activity android:name=".MainActivity">
-            <intent-filter>
-                <action android:name="android.intent.action.MAIN" />
-
-                <category android:name="android.intent.category.LAUNCHER" />
-            </intent-filter>
-        </activity>
+        <activity android:name=".MainActivity"></activity>
     </application>
+
 </manifest>

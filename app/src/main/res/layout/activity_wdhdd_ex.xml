@@ -38,18 +38,29 @@
                 android:id="@+id/id17Review"
                 android:layout_width="286dp"
                 android:layout_height="556dp"
-                android:layout_marginTop="232dp"
+                android:layout_marginTop="252dp"
                 android:layout_marginEnd="16dp"
                 android:layout_marginRight="16dp"
                 android:text="@string/hddEx_wd_myPassport_1tb_review"
                 android:textAlignment="center"
                 android:textSize="18sp"
                 app:layout_constraintEnd_toEndOf="parent"
-                app:layout_constraintHorizontal_bias="0.637"
+                app:layout_constraintHorizontal_bias="0.862"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toTopOf="parent"
                 tools:layout_conversion_absoluteHeight="274dp"
                 tools:layout_conversion_absoluteWidth="360dp" />
+
+            <Button
+                android:id="@+id/btn_wdhddex_web"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="136dp"
+                android:layout_marginRight="136dp"
+                android:onClick="wdhddexOnClicked"
+                android:text="Lihat Selengkapnya"
+                app:layout_constraintBottom_toBottomOf="@+id/id17Review"
+                app:layout_constraintEnd_toEndOf="parent" />
 
         </androidx.constraintlayout.widget.ConstraintLayout>
     </ScrollView>

@@ -36,20 +36,32 @@
 
             <TextView
                 android:id="@+id/id17Review"
-                android:layout_width="321dp"
-                android:layout_height="355dp"
-                android:layout_marginTop="264dp"
+                android:layout_width="307dp"
+                android:layout_height="430dp"
+                android:layout_marginTop="188dp"
                 android:layout_marginEnd="16dp"
                 android:layout_marginRight="16dp"
                 android:text="@string/ram_hyperx32gb_predator_review"
                 android:textAlignment="center"
                 android:textSize="18sp"
                 app:layout_constraintEnd_toEndOf="parent"
-                app:layout_constraintHorizontal_bias="1.0"
+                app:layout_constraintHorizontal_bias="0.729"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toTopOf="parent"
                 tools:layout_conversion_absoluteHeight="274dp"
                 tools:layout_conversion_absoluteWidth="360dp" />
+
+            <Button
+                android:id="@+id/btn_hyperx_web"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="552dp"
+                android:layout_marginEnd="92dp"
+                android:layout_marginRight="92dp"
+                android:onClick="hyperXOnWebClicked"
+                android:text="Lihat Selengkapnya"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
 
         </androidx.constraintlayout.widget.ConstraintLayout>
     </ScrollView>

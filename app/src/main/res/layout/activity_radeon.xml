@@ -51,6 +51,18 @@
                 tools:layout_conversion_absoluteHeight="274dp"
                 tools:layout_conversion_absoluteWidth="360dp" />
 
+            <Button
+                android:id="@+id/btn_radein_web"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="776dp"
+                android:layout_marginEnd="92dp"
+                android:layout_marginRight="92dp"
+                android:onClick="radeonWebOnCLicked"
+                android:text="Lihat Selengkapnya"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
         </androidx.constraintlayout.widget.ConstraintLayout>
     </ScrollView>
 </androidx.constraintlayout.widget.ConstraintLayout>
