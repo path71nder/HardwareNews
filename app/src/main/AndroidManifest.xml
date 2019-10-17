@@ -9,7 +9,10 @@
         android:roundIcon="@mipmap/icon"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".activity.Komentar4Activity"></activity>
+        <activity android:name=".activity.Komentar7Activity"></activity>
+        <activity android:name=".activity.Komentar6Activity" />
+        <activity android:name=".activity.Komentar5Activity" />
+        <activity android:name=".activity.Komentar4Activity" />
         <activity android:name=".activity.Komentar2Activity" />
         <activity android:name=".activity.Komentar3Activity" />
         <activity android:name=".activity.KomentarActivity" />

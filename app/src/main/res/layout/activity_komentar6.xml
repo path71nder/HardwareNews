@@ -4,10 +4,10 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".activity.Komentar4Activity">
+    tools:context=".activity.Komentar6Activity">
 
     <TextView
-        android:id="@+id/tv_komentar4"
+        android:id="@+id/tv_komentar6"
         android:layout_width="92dp"
         android:layout_height="24dp"
         android:layout_marginStart="36dp"
@@ -46,12 +46,12 @@
 
     <TextView
         android:id="@+id/textView5"
-        android:layout_width="321dp"
-        android:layout_height="34dp"
+        android:layout_width="320dp"
+        android:layout_height="41dp"
         android:layout_marginStart="36dp"
         android:layout_marginLeft="36dp"
         android:layout_marginTop="148dp"
-        android:text="Wah, gila nih ram"
+        android:text="Dulu saudara saya pernah beli psu abal-abal, belum ada 2 bulan pakai sudah korslet alhasil kena mobo sama processornya"
         android:textSize="16sp"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />

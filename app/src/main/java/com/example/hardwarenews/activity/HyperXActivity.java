@@ -29,7 +29,7 @@ public class HyperXActivity extends AppCompatActivity {
     public void comment4OnClicked(View view) {
         String komen4 = comment4Edit.getText().toString();
         Intent komen4Intent = new Intent(this, Komentar4Activity.class);
-        komen4Intent.putExtra("COMMENTER3_KEY", komen4);
+        komen4Intent.putExtra("COMMENTER4_KEY", komen4);
         startActivity(komen4Intent);
     }
 }
