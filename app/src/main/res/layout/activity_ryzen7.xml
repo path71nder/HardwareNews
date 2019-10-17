@@ -39,7 +39,7 @@
                 android:layout_marginRight="16dp"
                 android:text="@string/amd_ryzen7_1800X_review"
                 android:textAlignment="center"
-                android:textSize="18sp"
+                android:textSize="14sp"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintHorizontal_bias="1.0"
                 app:layout_constraintStart_toStartOf="parent"
@@ -51,11 +51,35 @@
                 android:id="@+id/btn_ryzen7_web"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_marginTop="568dp"
-                android:layout_marginEnd="136dp"
-                android:layout_marginRight="136dp"
+                android:layout_marginTop="492dp"
+                android:layout_marginEnd="92dp"
+                android:layout_marginRight="92dp"
                 android:onClick="ryzen7OnClicked"
                 android:text="Lihat Selengkapnya"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <EditText
+                android:id="@+id/et_komen8"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="16dp"
+                android:layout_marginLeft="16dp"
+                android:layout_marginTop="564dp"
+                android:ems="10"
+                android:inputType="textPersonName"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <Button
+                android:id="@+id/btn_komen8"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="560dp"
+                android:layout_marginEnd="28dp"
+                android:layout_marginRight="28dp"
+                android:onClick="comment8OnClick"
+                android:text="Submit"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintTop_toTopOf="parent" />
 
