@@ -10,27 +10,38 @@
         android:id="@+id/idInteli7"
         android:layout_width="368dp"
         android:layout_height="36dp"
+        android:onClick="SamsungSSDOnClicked"
         android:text="@string/ssd_samsung_860_1tb_overview"
         android:textSize="18sp"
-        android:onClick="SamsungSSDOnClicked"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintHorizontal_bias="1.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.072" />
+        app:layout_constraintVertical_bias="0.528" />
 
     <TextView
         android:id="@+id/textView4"
-        android:layout_width="368dp"
-        android:layout_height="36dp"
+        android:layout_width="366dp"
+        android:layout_height="55dp"
+        android:onClick="WDHddExOnclicked"
         android:text="@string/hddEx_wd_myPassport_1tb_overview"
         android:textSize="18sp"
-        android:onClick="WDHddExOnclicked"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintHorizontal_bias="1.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.144" />
+        app:layout_constraintVertical_bias="0.607" />
+
+    <ImageView
+        android:id="@+id/imageView4"
+        android:layout_width="174dp"
+        android:layout_height="128dp"
+        android:layout_marginTop="96dp"
+        android:layout_marginEnd="92dp"
+        android:layout_marginRight="92dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@mipmap/harddisk" />
 </androidx.constraintlayout.widget.ConstraintLayout>
