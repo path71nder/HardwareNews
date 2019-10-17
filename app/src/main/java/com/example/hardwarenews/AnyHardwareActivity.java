@@ -10,7 +10,6 @@ import com.example.hardwarenews.activity.CaseActivity;
 import com.example.hardwarenews.activity.CpuActivity;
 import com.example.hardwarenews.activity.GpuActivity;
 import com.example.hardwarenews.activity.HddActivity;
-import com.example.hardwarenews.activity.MonitorActivity;
 import com.example.hardwarenews.activity.PsuActivity;
 import com.example.hardwarenews.activity.RamActivity;
 

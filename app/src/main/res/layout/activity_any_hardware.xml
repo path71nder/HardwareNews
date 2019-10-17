@@ -89,18 +89,6 @@
         app:layout_constraintVertical_bias="0.575"
         app:srcCompat="@mipmap/casing" />
 
-    <ImageButton
-        android:id="@+id/imgMonitor"
-        android:layout_width="44dp"
-        android:layout_height="40dp"
-        android:onClick="monitorOnClicked"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.746"
-        app:srcCompat="@mipmap/monitor" />
-
     <TextView
         android:id="@+id/tvGpu"
         android:layout_width="wrap_content"
@@ -165,19 +153,6 @@
         android:layout_marginRight="80dp"
         android:text="CASE"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
-
-    <TextView
-        android:id="@+id/tvMonitoe"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="416dp"
-        android:layout_marginEnd="156dp"
-        android:layout_marginRight="156dp"
-        android:text="Monitor"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="1.0"
-        app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

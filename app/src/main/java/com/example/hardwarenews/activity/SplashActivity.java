@@ -8,7 +8,6 @@ import android.os.Handler;
 
 import com.example.hardwarenews.MainActivity;
 import com.example.hardwarenews.R;
-import com.example.hardwarenews.WelcomeActivity;
 
 public class SplashActivity extends AppCompatActivity {
 

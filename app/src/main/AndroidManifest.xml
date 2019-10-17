@@ -9,7 +9,10 @@
         android:roundIcon="@mipmap/icon"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".activity.KomentarActivity"></activity>
+        <activity android:name=".activity.Komentar4Activity"></activity>
+        <activity android:name=".activity.Komentar2Activity" />
+        <activity android:name=".activity.Komentar3Activity" />
+        <activity android:name=".activity.KomentarActivity" />
         <activity android:name=".activity.SplashActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -17,7 +20,6 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".WelcomeActivity"></activity>
         <activity android:name=".activity.CorsairCarbideActivity" />
         <activity android:name=".activity.PsuNewsActivity" />
         <activity android:name=".activity.RadeonActivity" />
@@ -28,7 +30,6 @@
         <activity android:name=".activity.CorsairActivity" />
         <activity android:name=".activity.Ryzen7Activity" />
         <activity android:name=".activity.I7Activity" />
-        <activity android:name=".activity.MonitorActivity" />
         <activity android:name=".activity.CaseActivity" />
         <activity android:name=".activity.PsuActivity" />
         <activity android:name=".activity.HddActivity" />
