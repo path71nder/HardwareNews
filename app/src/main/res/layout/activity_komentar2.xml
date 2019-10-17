@@ -8,8 +8,8 @@
 
     <TextView
         android:id="@+id/tv_komentar2"
-        android:layout_width="92dp"
-        android:layout_height="24dp"
+        android:layout_width="298dp"
+        android:layout_height="156dp"
         android:layout_marginStart="36dp"
         android:layout_marginLeft="36dp"
         android:layout_marginTop="252dp"

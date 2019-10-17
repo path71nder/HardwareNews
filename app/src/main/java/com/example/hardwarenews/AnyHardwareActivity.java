@@ -50,9 +50,4 @@ public class AnyHardwareActivity extends AppCompatActivity {
         Intent caseIntent = new Intent(this, CaseActivity.class);
         startActivity(caseIntent);
     }
-
-    public void monitorOnClicked(View view) {
-        Intent monitorIntent = new Intent(this, MonitorActivity.class);
-        startActivity(monitorIntent);
-    }
 }

@@ -65,12 +65,9 @@
 
             <EditText
                 android:id="@+id/et_komen3"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_marginStart="16dp"
-                android:layout_marginLeft="16dp"
-                android:layout_marginTop="680dp"
-                android:ems="10"
+                android:layout_width="253dp"
+                android:layout_height="53dp"
+                android:layout_marginTop="684dp"
                 android:inputType="textPersonName"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toTopOf="parent" />
@@ -79,9 +76,7 @@
                 android:id="@+id/btn_komen3"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_marginTop="680dp"
-                android:layout_marginEnd="16dp"
-                android:layout_marginRight="16dp"
+                android:layout_marginTop="684dp"
                 android:onClick="comment3OnClick"
                 android:text="Submit"
                 app:layout_constraintEnd_toEndOf="parent"
