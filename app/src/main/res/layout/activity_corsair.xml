@@ -9,22 +9,22 @@
     <ScrollView
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        tools:layout_editor_absoluteX="316dp"
-        tools:layout_editor_absoluteY="289dp">
+        tools:layout_editor_absoluteX="-16dp"
+        tools:layout_editor_absoluteY="71dp">
 
         <androidx.constraintlayout.widget.ConstraintLayout
+            android:id="@+id/linearLayout"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:orientation="vertical"
-            android:id="@+id/linearLayout">
+            android:orientation="vertical">
 
             <TextView
                 android:id="@+id/idI7Title"
                 android:layout_width="318dp"
                 android:layout_height="95dp"
-                android:layout_marginStart="24dp"
-                android:layout_marginLeft="24dp"
-                android:layout_marginTop="36dp"
+                android:layout_marginStart="16dp"
+                android:layout_marginLeft="16dp"
+                android:layout_marginTop="28dp"
                 android:text="@string/ram_corsair16gb_overview"
                 android:textAlignment="center"
                 android:textSize="24sp"
@@ -38,12 +38,12 @@
                 android:id="@+id/id17Review"
                 android:layout_width="324dp"
                 android:layout_height="455dp"
-                android:layout_marginTop="284dp"
+                android:layout_marginTop="240dp"
                 android:layout_marginEnd="16dp"
                 android:layout_marginRight="16dp"
                 android:text="@string/ram_corsair16gb_review"
                 android:textAlignment="center"
-                android:textSize="18sp"
+                android:textSize="16sp"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintHorizontal_bias="1.0"
                 app:layout_constraintStart_toStartOf="parent"
@@ -57,8 +57,33 @@
                 android:layout_height="wrap_content"
                 android:layout_marginEnd="92dp"
                 android:layout_marginRight="92dp"
+                android:layout_marginBottom="100dp"
                 android:onClick="corsairWebInClicked"
                 android:text="Lihat Selengkapnya"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent" />
+
+            <EditText
+                android:id="@+id/et_komen"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="124dp"
+                android:layout_marginRight="124dp"
+                android:layout_marginBottom="16dp"
+                android:ems="10"
+                android:inputType="textPersonName"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent" />
+
+            <Button
+                android:id="@+id/btn_komen"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="16dp"
+                android:layout_marginRight="16dp"
+                android:layout_marginBottom="12dp"
+                android:onClick="commentOnClick"
+                android:text="Submit"
                 app:layout_constraintBottom_toBottomOf="parent"
                 app:layout_constraintEnd_toEndOf="parent" />
 
