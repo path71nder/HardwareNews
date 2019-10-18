@@ -36,16 +36,16 @@
 
             <TextView
                 android:id="@+id/id17Review"
-                android:layout_width="345dp"
-                android:layout_height="455dp"
-                android:layout_marginTop="232dp"
+                android:layout_width="364dp"
+                android:layout_height="459dp"
+                android:layout_marginTop="324dp"
                 android:layout_marginEnd="16dp"
                 android:layout_marginRight="16dp"
                 android:text="@string/ssd_samsung_860_1tb_review"
                 android:textAlignment="center"
                 android:textSize="14sp"
                 app:layout_constraintEnd_toEndOf="parent"
-                app:layout_constraintHorizontal_bias="0.0"
+                app:layout_constraintHorizontal_bias="0.1"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toTopOf="parent"
                 tools:layout_conversion_absoluteHeight="274dp"
@@ -55,7 +55,7 @@
                 android:id="@+id/btn_samsungssd_web"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_marginTop="492dp"
+                android:layout_marginTop="540dp"
                 android:layout_marginEnd="92dp"
                 android:layout_marginRight="92dp"
                 android:onClick="samsungssdOnClicked"
@@ -86,6 +86,17 @@
                 android:text="Button"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintTop_toTopOf="parent" />
+
+            <ImageView
+                android:id="@+id/imageView16"
+                android:layout_width="297dp"
+                android:layout_height="198dp"
+                android:layout_marginTop="116dp"
+                android:layout_marginEnd="28dp"
+                android:layout_marginRight="28dp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:srcCompat="@mipmap/ssd_samsung" />
 
         </androidx.constraintlayout.widget.ConstraintLayout>
     </ScrollView>
