@@ -17,7 +17,7 @@ public class PsuActivity extends AppCompatActivity {
     }
 
     public void PsuNewsOnClicked(View view) {
-        Intent psuNewsIntent = new Intent(this, GTXActivity.class);
+        Intent psuNewsIntent = new Intent(this, PsuNewsActivity.class);
         startActivity(psuNewsIntent);
     }
 }
