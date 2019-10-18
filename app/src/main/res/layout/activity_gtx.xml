@@ -38,7 +38,7 @@
                 android:id="@+id/id17Review"
                 android:layout_width="286dp"
                 android:layout_height="556dp"
-                android:layout_marginTop="236dp"
+                android:layout_marginTop="300dp"
                 android:layout_marginEnd="16dp"
                 android:layout_marginRight="14dp"
                 android:text="@string/gpu_asus_gtx1060_review"
@@ -55,9 +55,9 @@
                 android:id="@+id/btn_gtx_web"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_marginEnd="92dp"
-                android:layout_marginRight="92dp"
-                android:layout_marginBottom="152dp"
+                android:layout_marginEnd="88dp"
+                android:layout_marginRight="88dp"
+                android:layout_marginBottom="212dp"
                 android:onClick="Gtx1060webInClicked"
                 android:text="Lihat Selengkapnya"
                 app:layout_constraintBottom_toBottomOf="parent"
@@ -81,6 +81,17 @@
                 android:text="Submit"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintTop_toTopOf="parent" />
+
+            <ImageView
+                android:id="@+id/imageView10"
+                android:layout_width="239dp"
+                android:layout_height="152dp"
+                android:layout_marginTop="132dp"
+                android:layout_marginEnd="60dp"
+                android:layout_marginRight="60dp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:srcCompat="@mipmap/gtx_1060_6gb_9gbs" />
 
         </androidx.constraintlayout.widget.ConstraintLayout>
     </ScrollView>
