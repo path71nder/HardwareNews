@@ -5,8 +5,10 @@ import androidx.appcompat.app.AppCompatActivity;
 import android.content.Intent;
 import android.net.Uri;
 import android.os.Bundle;
+import android.text.TextUtils;
 import android.view.View;
 import android.widget.EditText;
+import android.widget.Toast;
 
 import com.example.hardwarenews.R;
 
@@ -28,8 +30,13 @@ public class SamsungSSDActivity extends AppCompatActivity {
 
     public void comment9OnClick(View view) {
         String komen9 = comment9Edit.getText().toString();
-        Intent koment9Intent = new Intent(this, Komentar9Activity.class);
-        koment9Intent.putExtra("COMMENTER9_KEY", komen9);
-        startActivity(koment9Intent);
+        if (TextUtils.isEmpty(komen9)){
+            Toast.makeText(this, "Mohon Masukkan Komentar anda", Toast.LENGTH_SHORT).show();
+        }
+        else {
+            Intent koment9Intent = new Intent(this, Komentar9Activity.class);
+            koment9Intent.putExtra("COMMENTER9_KEY", komen9);
+            startActivity(koment9Intent);
+        }
     }
 }
