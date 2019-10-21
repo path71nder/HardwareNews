@@ -5,8 +5,10 @@ import androidx.appcompat.app.AppCompatActivity;
 import android.content.Intent;
 import android.net.Uri;
 import android.os.Bundle;
+import android.text.TextUtils;
 import android.view.View;
 import android.widget.EditText;
+import android.widget.Toast;
 
 import com.example.hardwarenews.R;
 
@@ -28,8 +30,13 @@ public class HyperXActivity extends AppCompatActivity {
 
     public void comment4OnClicked(View view) {
         String komen4 = comment4Edit.getText().toString();
-        Intent komen4Intent = new Intent(this, Komentar4Activity.class);
-        komen4Intent.putExtra("COMMENTER4_KEY", komen4);
-        startActivity(komen4Intent);
+        if (TextUtils.isEmpty(komen4)){
+            Toast.makeText(this, "Mohon Masukkan Komentar anda", Toast.LENGTH_SHORT).show();
+        }
+        else {
+            Intent komen4Intent = new Intent(this, Komentar4Activity.class);
+            komen4Intent.putExtra("COMMENTER4_KEY", komen4);
+            startActivity(komen4Intent);
+        }
     }
 }

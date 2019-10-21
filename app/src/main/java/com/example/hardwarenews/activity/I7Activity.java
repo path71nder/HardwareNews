@@ -5,8 +5,10 @@ import androidx.appcompat.app.AppCompatActivity;
 import android.content.Intent;
 import android.net.Uri;
 import android.os.Bundle;
+import android.text.TextUtils;
 import android.view.View;
 import android.widget.EditText;
+import android.widget.Toast;
 
 import com.example.hardwarenews.R;
 
@@ -28,8 +30,13 @@ public class I7Activity extends AppCompatActivity {
 
     public void comment5OnClick(View view) {
         String komen5 = comment5Edit.getText().toString();
-        Intent komen5Intent = new Intent(this, Komentar5Activity.class);
-        komen5Intent.putExtra("COMMENTER5_KEY", komen5);
-        startActivity(komen5Intent);
+        if (TextUtils.isEmpty(komen5)){
+            Toast.makeText(this, "Mohon Masukkan Komentar anda", Toast.LENGTH_SHORT).show();
+        }
+        else {
+            Intent komen5Intent = new Intent(this, Komentar5Activity.class);
+            komen5Intent.putExtra("COMMENTER5_KEY", komen5);
+            startActivity(komen5Intent);
+        }
     }
 }
