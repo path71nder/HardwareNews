@@ -6,10 +6,10 @@
     android:layout_height="match_parent"
     tools:context=".activity.GpuActivity">
 
-    <TextView
+    <Button
         android:id="@+id/idInteli7"
-        android:layout_width="364dp"
-        android:layout_height="55dp"
+        android:layout_width="360dp"
+        android:layout_height="86dp"
         android:onClick="Gtx1060OnClicked"
         android:text="@string/gpu_asus_gtx1060_overview"
         android:textSize="18sp"
@@ -20,19 +20,19 @@
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.538" />
 
-    <TextView
+    <Button
         android:id="@+id/textView4"
-        android:layout_width="368dp"
-        android:layout_height="36dp"
+        android:layout_width="364dp"
+        android:layout_height="76dp"
         android:onClick="RadeonviiOnClicked"
         android:text="@string/gpu_fe_radeonVII_overview"
         android:textSize="18sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.125"
+        app:layout_constraintHorizontal_bias="1.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.612" />
+        app:layout_constraintVertical_bias="0.702" />
 
     <ImageView
         android:id="@+id/imageView3"

@@ -5,8 +5,10 @@ import androidx.appcompat.app.AppCompatActivity;
 import android.content.Intent;
 import android.net.Uri;
 import android.os.Bundle;
+import android.text.TextUtils;
 import android.view.View;
 import android.widget.EditText;
+import android.widget.Toast;
 
 import com.example.hardwarenews.R;
 
@@ -28,8 +30,13 @@ public class CorsairActivity extends AppCompatActivity {
 
     public void commentOnClick(View view) {
         String komen = commentEdit.getText().toString();
-        Intent komenIntent = new Intent(this, KomentarActivity.class);
-        komenIntent.putExtra("COMMENTER_KEY", komen);
-        startActivity(komenIntent);
+        if (TextUtils.isEmpty(komen)){
+            Toast.makeText(this, "Mohon Masukkan Komentar anda", Toast.LENGTH_SHORT).show();
+        }
+        else {
+            Intent komenIntent = new Intent(this, KomentarActivity.class);
+            komenIntent.putExtra("COMMENTER_KEY", komen);
+            startActivity(komenIntent);
+        }
     }
 }
